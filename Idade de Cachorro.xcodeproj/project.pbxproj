@@ -16,6 +16,7 @@
 		D374520B26C72FD00082C226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D374520926C72FD00082C226 /* LaunchScreen.storyboard */; };
 		D374521626C72FD00082C226 /* Idade_de_CachorroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D374521526C72FD00082C226 /* Idade_de_CachorroTests.swift */; };
 		D374522126C72FD00082C226 /* Idade_de_CachorroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D374522026C72FD00082C226 /* Idade_de_CachorroUITests.swift */; };
+		D374522F26C730D80082C226 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = D374522E26C730D80082C226 /* cachorro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D374521C26C72FD00082C226 /* Idade de CachorroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Idade de CachorroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D374522026C72FD00082C226 /* Idade_de_CachorroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idade_de_CachorroUITests.swift; sourceTree = "<group>"; };
 		D374522226C72FD00082C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D374522E26C730D80082C226 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D37451FA26C72FCF0082C226 /* Idade de Cachorro */ = {
 			isa = PBXGroup;
 			children = (
+				D374522E26C730D80082C226 /* cachorro.png */,
 				D37451FB26C72FCF0082C226 /* AppDelegate.swift */,
 				D37451FD26C72FCF0082C226 /* SceneDelegate.swift */,
 				D37451FF26C72FCF0082C226 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D374522F26C730D80082C226 /* cachorro.png in Resources */,
 				D374520B26C72FD00082C226 /* LaunchScreen.storyboard in Resources */,
 				D374520826C72FD00082C226 /* Assets.xcassets in Resources */,
 				D374520326C72FCF0082C226 /* Main.storyboard in Resources */,
