@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D37451FC26C72FCF0082C226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37451FB26C72FCF0082C226 /* AppDelegate.swift */; };
+		D37451FE26C72FCF0082C226 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37451FD26C72FCF0082C226 /* SceneDelegate.swift */; };
+		D374520026C72FCF0082C226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37451FF26C72FCF0082C226 /* ViewController.swift */; };
+		D374520326C72FCF0082C226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D374520126C72FCF0082C226 /* Main.storyboard */; };
+		D374520626C72FCF0082C226 /* Idade_de_Cachorro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D374520426C72FCF0082C226 /* Idade_de_Cachorro.xcdatamodeld */; };
+		D374520826C72FD00082C226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D374520726C72FD00082C226 /* Assets.xcassets */; };
+		D374520B26C72FD00082C226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D374520926C72FD00082C226 /* LaunchScreen.storyboard */; };
+		D374521626C72FD00082C226 /* Idade_de_CachorroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D374521526C72FD00082C226 /* Idade_de_CachorroTests.swift */; };
+		D374522126C72FD00082C226 /* Idade_de_CachorroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D374522026C72FD00082C226 /* Idade_de_CachorroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D374521226C72FD00082C226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37451F026C72FCF0082C226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37451F726C72FCF0082C226;
+			remoteInfo = "Idade de Cachorro";
+		};
+		D374521D26C72FD00082C226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37451F026C72FCF0082C226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37451F726C72FCF0082C226;
+			remoteInfo = "Idade de Cachorro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D37451F826C72FCF0082C226 /* Idade de Cachorro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Idade de Cachorro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37451FB26C72FCF0082C226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D37451FD26C72FCF0082C226 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D37451FF26C72FCF0082C226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D374520226C72FCF0082C226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D374520526C72FCF0082C226 /* Idade_de_Cachorro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Idade_de_Cachorro.xcdatamodel; sourceTree = "<group>"; };
+		D374520726C72FD00082C226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D374520A26C72FD00082C226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D374520C26C72FD00082C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D374521126C72FD00082C226 /* Idade de CachorroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Idade de CachorroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D374521526C72FD00082C226 /* Idade_de_CachorroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idade_de_CachorroTests.swift; sourceTree = "<group>"; };
+		D374521726C72FD00082C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D374521C26C72FD00082C226 /* Idade de CachorroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Idade de CachorroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D374522026C72FD00082C226 /* Idade_de_CachorroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idade_de_CachorroUITests.swift; sourceTree = "<group>"; };
+		D374522226C72FD00082C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D37451F526C72FCF0082C226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D374520E26C72FD00082C226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D374521926C72FD00082C226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D37451EF26C72FCF0082C226 = {
+			isa = PBXGroup;
+			children = (
+				D37451FA26C72FCF0082C226 /* Idade de Cachorro */,
+				D374521426C72FD00082C226 /* Idade de CachorroTests */,
+				D374521F26C72FD00082C226 /* Idade de CachorroUITests */,
+				D37451F926C72FCF0082C226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D37451F926C72FCF0082C226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D37451F826C72FCF0082C226 /* Idade de Cachorro.app */,
+				D374521126C72FD00082C226 /* Idade de CachorroTests.xctest */,
+				D374521C26C72FD00082C226 /* Idade de CachorroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D37451FA26C72FCF0082C226 /* Idade de Cachorro */ = {
+			isa = PBXGroup;
+			children = (
+				D37451FB26C72FCF0082C226 /* AppDelegate.swift */,
+				D37451FD26C72FCF0082C226 /* SceneDelegate.swift */,
+				D37451FF26C72FCF0082C226 /* ViewController.swift */,
+				D374520126C72FCF0082C226 /* Main.storyboard */,
+				D374520726C72FD00082C226 /* Assets.xcassets */,
+				D374520926C72FD00082C226 /* LaunchScreen.storyboard */,
+				D374520C26C72FD00082C226 /* Info.plist */,
+				D374520426C72FCF0082C226 /* Idade_de_Cachorro.xcdatamodeld */,
+			);
+			path = "Idade de Cachorro";
+			sourceTree = "<group>";
+		};
+		D374521426C72FD00082C226 /* Idade de CachorroTests */ = {
+			isa = PBXGroup;
+			children = (
+				D374521526C72FD00082C226 /* Idade_de_CachorroTests.swift */,
+				D374521726C72FD00082C226 /* Info.plist */,
+			);
+			path = "Idade de CachorroTests";
+			sourceTree = "<group>";
+		};
+		D374521F26C72FD00082C226 /* Idade de CachorroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D374522026C72FD00082C226 /* Idade_de_CachorroUITests.swift */,
+				D374522226C72FD00082C226 /* Info.plist */,
+			);
+			path = "Idade de CachorroUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D37451F726C72FCF0082C226 /* Idade de Cachorro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D374522526C72FD10082C226 /* Build configuration list for PBXNativeTarget "Idade de Cachorro" */;
+			buildPhases = (
+				D37451F426C72FCF0082C226 /* Sources */,
+				D37451F526C72FCF0082C226 /* Frameworks */,
+				D37451F626C72FCF0082C226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Idade de Cachorro";
+			productName = "Idade de Cachorro";
+			productReference = D37451F826C72FCF0082C226 /* Idade de Cachorro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D374521026C72FD00082C226 /* Idade de CachorroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D374522826C72FD10082C226 /* Build configuration list for PBXNativeTarget "Idade de CachorroTests" */;
+			buildPhases = (
+				D374520D26C72FD00082C226 /* Sources */,
+				D374520E26C72FD00082C226 /* Frameworks */,
+				D374520F26C72FD00082C226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D374521326C72FD00082C226 /* PBXTargetDependency */,
+			);
+			name = "Idade de CachorroTests";
+			productName = "Idade de CachorroTests";
+			productReference = D374521126C72FD00082C226 /* Idade de CachorroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D374521B26C72FD00082C226 /* Idade de CachorroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D374522B26C72FD10082C226 /* Build configuration list for PBXNativeTarget "Idade de CachorroUITests" */;
+			buildPhases = (
+				D374521826C72FD00082C226 /* Sources */,
+				D374521926C72FD00082C226 /* Frameworks */,
+				D374521A26C72FD00082C226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D374521E26C72FD00082C226 /* PBXTargetDependency */,
+			);
+			name = "Idade de CachorroUITests";
+			productName = "Idade de CachorroUITests";
+			productReference = D374521C26C72FD00082C226 /* Idade de CachorroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D37451F026C72FCF0082C226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D37451F726C72FCF0082C226 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D374521026C72FD00082C226 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D37451F726C72FCF0082C226;
+					};
+					D374521B26C72FD00082C226 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D37451F726C72FCF0082C226;
+					};
+				};
+			};
+			buildConfigurationList = D37451F326C72FCF0082C226 /* Build configuration list for PBXProject "Idade de Cachorro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D37451EF26C72FCF0082C226;
+			productRefGroup = D37451F926C72FCF0082C226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D37451F726C72FCF0082C226 /* Idade de Cachorro */,
+				D374521026C72FD00082C226 /* Idade de CachorroTests */,
+				D374521B26C72FD00082C226 /* Idade de CachorroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D37451F626C72FCF0082C226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D374520B26C72FD00082C226 /* LaunchScreen.storyboard in Resources */,
+				D374520826C72FD00082C226 /* Assets.xcassets in Resources */,
+				D374520326C72FCF0082C226 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D374520F26C72FD00082C226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D374521A26C72FD00082C226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D37451F426C72FCF0082C226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D374520026C72FCF0082C226 /* ViewController.swift in Sources */,
+				D374520626C72FCF0082C226 /* Idade_de_Cachorro.xcdatamodeld in Sources */,
+				D37451FC26C72FCF0082C226 /* AppDelegate.swift in Sources */,
+				D37451FE26C72FCF0082C226 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D374520D26C72FD00082C226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D374521626C72FD00082C226 /* Idade_de_CachorroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D374521826C72FD00082C226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D374522126C72FD00082C226 /* Idade_de_CachorroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D374521326C72FD00082C226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D37451F726C72FCF0082C226 /* Idade de Cachorro */;
+			targetProxy = D374521226C72FD00082C226 /* PBXContainerItemProxy */;
+		};
+		D374521E26C72FD00082C226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D37451F726C72FCF0082C226 /* Idade de Cachorro */;
+			targetProxy = D374521D26C72FD00082C226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D374520126C72FCF0082C226 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D374520226C72FCF0082C226 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D374520926C72FD00082C226 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D374520A26C72FD00082C226 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D374522326C72FD10082C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D374522426C72FD10082C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D374522626C72FD10082C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Idade de Cachorro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Idade-de-Cachorro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D374522726C72FD10082C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Idade de Cachorro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Idade-de-Cachorro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D374522926C72FD10082C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Idade de CachorroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Idade-de-CachorroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Idade de Cachorro.app/Idade de Cachorro";
+			};
+			name = Debug;
+		};
+		D374522A26C72FD10082C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Idade de CachorroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Idade-de-CachorroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Idade de Cachorro.app/Idade de Cachorro";
+			};
+			name = Release;
+		};
+		D374522C26C72FD10082C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Idade de CachorroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Idade-de-CachorroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Idade de Cachorro";
+			};
+			name = Debug;
+		};
+		D374522D26C72FD10082C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Idade de CachorroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Idade-de-CachorroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Idade de Cachorro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D37451F326C72FCF0082C226 /* Build configuration list for PBXProject "Idade de Cachorro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D374522326C72FD10082C226 /* Debug */,
+				D374522426C72FD10082C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D374522526C72FD10082C226 /* Build configuration list for PBXNativeTarget "Idade de Cachorro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D374522626C72FD10082C226 /* Debug */,
+				D374522726C72FD10082C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D374522826C72FD10082C226 /* Build configuration list for PBXNativeTarget "Idade de CachorroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D374522926C72FD10082C226 /* Debug */,
+				D374522A26C72FD10082C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D374522B26C72FD10082C226 /* Build configuration list for PBXNativeTarget "Idade de CachorroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D374522C26C72FD10082C226 /* Debug */,
+				D374522D26C72FD10082C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D374520426C72FCF0082C226 /* Idade_de_Cachorro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D374520526C72FCF0082C226 /* Idade_de_Cachorro.xcdatamodel */,
+			);
+			currentVersion = D374520526C72FCF0082C226 /* Idade_de_Cachorro.xcdatamodel */;
+			path = Idade_de_Cachorro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D37451F026C72FCF0082C226 /* Project object */;
+}
